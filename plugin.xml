@@ -49,6 +49,9 @@
         <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
         <source-file src="src/android/ThemeableBrowserUnmarshaller.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
+
+        <source-file src="src/android/res/drawable-xhdpi/back.png" target-dir="res/drawable-xhdpi"/>
+        <source-file src="src/android/res/drawable-xhdpi/back_pressed.png" target-dir="res/drawable-xhdpi"/>
     </platform>
 
     <!-- ios -->
@@ -66,5 +69,16 @@
         <source-file src="src/ios/CDVThemeableBrowser.m" />
 
         <framework src="CoreGraphics.framework" />
+
+        <resource-file src="src/ios/Resources/back_pressed@2x.png" />
+        <resource-file src="src/ios/Resources/back@2x.png" />
+        <resource-file src="src/ios/Resources/close_pressed@2x.png"/>
+        <resource-file src="src/ios/Resources/close@2x.png" />
+        <resource-file src="src/ios/Resources/forward_pressed@2x.png" />
+        <resource-file src="src/ios/Resources/forward@2x.png" />
+        <resource-file src="src/ios/Resources/menu_pressed@2x.png" />
+        <resource-file src="src/ios/Resources/menu@2x.png" />
+        <resource-file src="src/ios/Resources/share_pressed@2x.png" />
+        <resource-file src="src/ios/Resources/share@2x.png" />
     </platform>
 </plugin>
